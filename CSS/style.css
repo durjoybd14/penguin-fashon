@@ -11,12 +11,12 @@ img{
     font-style: 16px;
     font-weight: 600;
     border: none;
-    background-image: linear-gradient(180deg,#c2e43a,#8aa520);
+    background-image: linear-gradient(90deg,#3636f7,blue);
 
 }
 
 .color-text{
-    color: #fabe4c;
+    color: blue;
     font-weight: 700;
 }
 
