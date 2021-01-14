@@ -1,0 +1,54 @@
+img{
+    max-width: 100%;
+}
+
+.default-button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-style: 16px;
+    font-weight: 600;
+    border: none;
+    background-image: linear-gradient(180deg,#c2e43a,#8aa520);
+    margin-top: 15px;
+
+}
+
+.color-text{
+    color: #fabe4c;
+}
+
+header{
+    background-color: #fffbf0;
+}
+
+.logo{
+    width: 60%;
+}
+
+header ul{
+    margin: 0 auto;
+}
+
+header ul li{
+    margin-left: 40px;
+}
+header ul li a{
+    font-size: 17px;
+    font-weight: 600;
+    color: black !important;
+    
+}
+
+.banner{
+    padding-right: 200px;
+    margin-top: -10px;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner p{
+    font-size: 16px;
+    margin-top: 20px;
+}
