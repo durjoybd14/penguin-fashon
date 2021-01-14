@@ -1,3 +1,5 @@
+/* default css */
+
 img{
     max-width: 100%;
 }
@@ -10,13 +12,15 @@ img{
     font-weight: 600;
     border: none;
     background-image: linear-gradient(180deg,#c2e43a,#8aa520);
-    margin-top: 15px;
 
 }
 
 .color-text{
     color: #fabe4c;
+    font-weight: 700;
 }
+
+/* header part */
 
 header{
     background-color: #fffbf0;
@@ -40,6 +44,8 @@ header ul li a{
     
 }
 
+/* banner part */
+
 .banner{
     padding-right: 200px;
     margin-top: -10px;
@@ -52,3 +58,49 @@ header ul li a{
     font-size: 16px;
     margin-top: 20px;
 }
+
+
+/* main part */
+
+.penguin-card img{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    height: 380px;
+    padding: 1rem;
+}
+
+
+.panguin-card-footer{
+    border: none;
+    background-color: white;
+}
+
+.services-left{
+    border: none;
+    padding:20px 20px 0 20px ;
+    border-radius: 10px;
+}
+
+/* manual responsive css (media-query) */
+
+@media all and (max-width:768px){
+    .services{
+        margin: auto;
+    }
+    
+    .services-left img{
+        display: block;
+        margin: auto;
+}
+}
+
+@media all and (max-width:576px){
+    iframe{
+        display: none;
+    }
+}
+
+
+
+
+
